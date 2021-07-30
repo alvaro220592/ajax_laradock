@@ -1,0 +1,11 @@
+copiar .env.example do laradock pro .env
+
+informações do .env:
+	DATA_PATH_HOST que mostra onde no computador são armazenados os dados. No linux o certo é deixar /tmp
+	COMPOSER_PROJECT_NAME é o nome do projeto
+	NGINX: tem umas informações q vale a pena alterar como a porta 80, já q é usada no dia a dia. No caso vou deixar 82 pra esse projeto
+	MYSQL/MARIADB: na versão vou alterar pra 5.1, o nome do banco será 'ajax_laradock', o user 'estudo', a senha vazia e a porta 3307
+	WORKSPACE: se tiver 2 containers usando SSH, é necessário mudar a porta em WORKSPACE_SSH_PÓRT
+
+Pode subir o docker(nesse caso rodei também com phpmyadmin)
+
